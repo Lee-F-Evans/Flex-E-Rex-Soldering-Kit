@@ -1,0 +1,12 @@
+2.2.X
+
+-Revision format change
+-PCB locating pin addition 
+
+2.2.2
+
+-LED support pin size increase
+
+MK2.2.1 Head+Body Assy
+
+-Increased thickness to rear wall of head bottom
