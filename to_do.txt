@@ -1,0 +1,14 @@
+- add to the README
+- add a section on what parts need to be fabricated
+- add section of all parts required for a kit (BOM mention)
+- add section explaining how to assemble the kits (link to the instructions)
+- add section explaining versioning
+- get rendered images for the assembly
+
+
+
+- add assembly CAD files, step files, stl and Gcode files into different folders under each version [2.1, 2.0, etc]
+- match versioning on part names [2.1 ->2.10]?
+- create gcode for Mofrad to start mass producing
+	- Create mk4 gcode files for 2.11 version parts for quantities of (1x, 4x, 6x?). nozzle=0.4, infill = 20%, speed=0.20 Speed, nobrim, nosupports
+	- Create prusa XL gcode files for 2.11 version parts for quantities of (many many? many many more?) nozzle=0.6, infill = 20%, speed=0.32 Speed, nobrim, nosupports
