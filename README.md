@@ -1,6 +1,9 @@
 ![image](Images/makerspace_logo.png)
 # Flex-E-Rex-Soldering-Kit
 
+![image](Images/Render Closed.png)
+
+![image](Images/Original/Render Exploded.png)
 ## About
 Flex E Rex is a beginer friendly soldering project developed as educational content within the Schulich School of Engineering Makermuliplex and Zetta by Lee Evans and Connor McNeill. The contents of this repo allow for anyone to assemble these kits for themselves.
 
