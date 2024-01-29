@@ -1,5 +1,8 @@
 ![photo 1](Thumbnails/makerspace_logo.png)
-# Flex-E-Rex-Soldering-Kit
+
+<header>
+    <h1 align = "center">Flex-E-Rex-Soldering-Kit</h1>
+</header>
 
 <p align="center">
   <img src="Thumbnails/render_exploded.png" width="291" />
@@ -16,15 +19,18 @@ Flex E Rex is a beginer friendly soldering project developed as educational cont
 For more information about equipment, trainings and classes offered within the Makermultiplex visit https://schulich.libguides.com/m2z/ or email us at m2z@ucalgary.ca. 
 
 ## How to Use
+To get the kits ready for use you will need to order PCBs, 3D print the 2 enclosure parts, order the circuit components listed in the "Parts" section or found in the BOM, gather required tools and print the instructions sheet if needed.
 
 ## Parts and Tools
 
-#### Tools required for assembly:
+### Tools:
 - Soldering iron
 - Lead Free Solder
 - Flush cuts/Wire cutters
 
-#### Parts required for assembly:
+### Parts:
+Details and links to the following components can be found in the BOM excel sheet.
+
 | Part | Quantity |
 | ----------- | ----------- |
 | LED | 2 |
@@ -34,7 +40,7 @@ For more information about equipment, trainings and classes offered within the M
 |PCB|1|
 |Dino Head Top|1|
 |Dino Head Bottom and Body |1|
-|CR2032|1|
+|CR2032 coin cell battery|1|
 
 ## Fabricating PCBs
 <p align="center">
@@ -42,11 +48,14 @@ For more information about equipment, trainings and classes offered within the M
   <img src="Thumbnails/board_back.png" width="300" /> 
 </p>
 
+- Add info about who we fabricated with and settings
 
 ## Printing Parts
+- Add image of parts in slicer
+- Add details on what parts to print and where they are found in the repo
+- Add recomended slicer settings
 
 ## Versioning Explained
-
 It is always recommended to use the highest versioned PCB and enclosure files. The below information is just to explain the versioning system used. 
 
 **#.X.X** - Indicates assembly versions. Mostly variations in size or major design changes.
