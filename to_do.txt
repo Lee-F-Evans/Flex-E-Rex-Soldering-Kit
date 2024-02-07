@@ -8,3 +8,6 @@
 
 - On bottom side of head by switch the model prints with holes.
 	- update bottom side wall thickness near switch to match head_top wall thickness. 0.66 -> 0.77?
+
+
+Images/makerspace_logo.png

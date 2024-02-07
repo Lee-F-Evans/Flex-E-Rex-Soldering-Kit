@@ -21,6 +21,8 @@ For more information about equipment, trainings and classes offered within the M
 ## How to Use
 To get the kits ready for use you will need to order PCBs, 3D print the 2 enclosure parts, order the circuit components listed in the "Parts" section or found in the BOM, gather required tools and print the instructions sheet if needed.
 
+It is recommended to briefly review the instructions before beginning assembly! The order of stems and LED spacing are important.
+
 ## Parts and Tools
 
 ### Tools:
@@ -44,17 +46,38 @@ Details and links to the following components can be found in the BOM excel shee
 
 ## Fabricating PCBs
 <p align="center">
-  <img src="Thumbnails/board_front.png" width="291" />
+  <img src="Thumbnails/board_front.png" width="300" />
   <img src="Thumbnails/board_back.png" width="300" /> 
 </p>
 
-- Add info about who we fabricated with and settings
+All files for fabrication are found in the folder `Flex-E Rex PCB Files 1_4x`. The fab files for different versions present as `Gerber and Drill Files_Rev#`. It is recomended to use the highest revision number as earlier versions may have problems.
+
+Order more than you need! The highest expense when ordering these boards is shipping, so adding a few extra to the cart wont hurt.
+
+### How We Ordered Our Boards 
+- We used JLCPCB.com for fabrication, but any PCB fabricator should be able to produce these boards. 
+- The boards are `1.6mm` thick.
+- Base material is `FR4`.
+- Surface finish is `lead free HASL`.
+- Order number uses a `specified location`.
+- All other settings were left as default.
 
 ## Printing Parts
-- Add image of parts in slicer
-- Add details on what parts to print and where they are found in the repo
-- Add recomended slicer settings
+<p align="center">
+  <img src="Thumbnails/slicer_bed.png" width="300" />
+  <img src="Thumbnails/slicer_sliced.png" width="300" /> 
+</p>
 
+Most recent STL or .3mf files are found in `Flex-E Rex CAD Files 1_4x\MK2.2.X\STL`. You will need to print both `MK2.2.0 Head+Body Assy.STL` and `MK2.2.2 Head Top.STL` for a single kit. If higher versions of the model are present, use those.
+
+We use Prusa printers and Prusa Slicer for producing our parts, but any calibrated 3D printer and slicing software will work. Below are the settings we use. 
+- PLA for material
+- 0.4mm diameter nozzle
+- 0.2mm layer height
+- 15% infill
+- No supports
+- No brim/raft
+   
 ## Versioning Explained
 It is always recommended to use the highest versioned PCB and enclosure files. The below information is just to explain the versioning system used. 
 
